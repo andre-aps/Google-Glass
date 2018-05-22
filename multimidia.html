@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Google Glass</title>
+        <link rel="stylesheet" href="_css/estilo.css">    
+        <link rel="stylesheet" href="_css/media.css">
+        <script src="./_javascript/funcoes.js"></script>
+        <script src="./_javascript/data.js"></script>         
+    </head>
+
+    <script src="./_javascript/funcoes.js"></script>
+
+    <body>
+        <div id="interface">
+
+        <header id="cabecalho">        
+            <hgroup>
+                <h1>Google Glass</h1>
+                <h2>A revolução do Google está chegando</h2>
+            </hgroup>
+            
+            <img id="icone" src="_imagens/multimidia.png">
+
+            <nav id="menu">
+                <h1>Menu Principal</h1>
+                <ul>                    
+                    <a href="index.html"><li onmouseover="mudaFoto('./_imagens/home.png')" onmouseout="mudaFoto('_imagens/multimidia.png')">Home</li></a>      
+                    <a href="specs.html"><li onmouseover="mudaFoto('./_imagens/especificacoes.png')" onmouseout="mudaFoto('./_imagens/multimidia.png')">Especificações</li></a>
+                    <a href="fotos.html"><li onmouseover="mudaFoto('./_imagens/fotos.png')" onmouseout="mudaFoto('./_imagens/multimidia.png')">Fotos</li></a>
+                    <a href="multimidia.html"><li onmouseover="mudaFoto('./_imagens/multimidia.png')" onmouseout="mudaFoto('./_imagens/multimidia.png')">Multimídia</li></a>    
+                    <a href="./fale-conosco.html"><li onmouseover="mudaFoto('./_imagens/contato.png')" onmouseout="mudaFoto('./_imagens/multimidia.png')">Fale conosco</li></a>   
+                </ul>                
+            </nav>            
+        </header>
+
+        <section>
+            <article id="noticia-principal">
+                <header id="cabecalho-artigo">       
+                    <hgroup>
+                        <h3>Glass > Multimídia</h3>
+                        <h1>Sons e Vídeos</h1>
+                        <h2>por André Silva</h2>
+                        <h3 class="direita">
+                            <script>
+                                document.write ("Hoje é " + dayName[now.getDay() ] + ", " + now.getDate () + " de " + monName[now.getMonth() ]   +  " de "  +     now.getFullYear () + ".")
+                            </script>
+                        </h3>
+                    </hgroup>
+                </header>               
+
+                <div id="tv-radio">
+                    <audio id="musica" src="./_media/2009-lovers-carvings-bibio.mp3" controls> Desculpe, mas não foi possível carregar o áudio.</audio>  
+                    <video id="filme" src="./_media/getting-started.mp4" controls poster="./_imagens/video-mini03.jpg"> Desculpe, mas não foi possível carregar o vídeo.</video>  
+                </div>
+            </article>
+        </section>
+
+        <footer id="rodape">
+            <p>Copyright &copy; 2013 - by André Silva <br>                
+                <a href="https://www.facebook.com/" target="_blank">Facebook |</a>             
+                <a href="https://twitter.com/login?lang=pt" target="_blank">Twitter </a>
+            </p>
+            <img src="./_imagens/facebook.png" id="fb-social">
+            <img src="./_imagens/twitter.png" id="tw-social">            
+        </footer>
+        </div>
+    </body>
+</html>
