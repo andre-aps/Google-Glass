@@ -25,7 +25,7 @@ Será exibido a página a seguir.
 ![template](https://user-images.githubusercontent.com/37241913/73114833-f9b08f80-3efc-11ea-925a-8bf20727716e.jpg)
 
 ## Versão
-Consulte as [tags neste repositório](https://github.com/andre-aps/Restaurante/tree/v1.0).
+Consulte as [tags neste repositório](https://github.com/andre-aps/Google-Glass/tree/v1.0).
 
 ## Autor
 <b> André Pereira da Silva </b> | [LinkedIn](https://www.linkedin.com/in/andre-aps)
