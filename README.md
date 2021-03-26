@@ -1,4 +1,7 @@
 # Projeto Google Glass
+![GitHub top language](https://img.shields.io/github/languages/top/andre-aps/google-glass)
+![GitHub repo size](https://img.shields.io/github/repo-size/andre-aps/google-glass)
+![GitHub last commit](https://img.shields.io/github/last-commit/andre-aps/google-glass)
 
 O projeto Google Glass foi desenvolvido utilizando a linguagem de marcação HTML5 juntamente com CSS e JavaScript, na qual é fruto do `curso de HTML5` promovido pelo canal [Curso em Vídeo](https://www.youtube.com/channel/UCrWvhVmt0Qac3HgsjQK62FQ) ministrado pelo professor Gustavo Guanabara.
 
